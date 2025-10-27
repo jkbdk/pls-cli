@@ -12,8 +12,9 @@ keywords = ["pls", "please", "todo", "cli"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-rich = "^13.7.0"
-typer = {extras = ["all"], version = "^0.9.0"}
+rich = "^13.9.4"
+typer = {extras = ["all"], version = "^0.12.5"}
+click = "^8.1.7"
 
 [tool.poetry.group.test]
 optional = true
